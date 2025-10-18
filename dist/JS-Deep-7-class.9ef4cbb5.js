@@ -160,7 +160,7 @@
       });
     }
   }
-})({"lpzWn":[function(require,module,exports,__globalThis) {
+})({"22qiQ":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -168,7 +168,7 @@ var HMR_SERVER_PORT = 3000;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "a726bb8fe02fbd41";
+module.bundle.HMR_BUNDLE_ID = "4da26e699ef4cbb5";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -666,54 +666,37 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"jOXmm":[function(require,module,exports,__globalThis) {
-var _context = require("./context");
-console.log((0, _context.context));
-document.addEventListener('DOMContentLoaded', ()=>{
-    const url = new URL('./l.hbs', window.location.href);
-    fetch(url).then((res)=>res.text()).then((hbsText)=>{
-        const template = Handlebars.compile(hbsText);
-        const colection = {
-            titleCardName: 'Apps',
-            textCardName: 'Firefox',
-            imgCardName: './firefox.svg',
-            imgCardAlt: 'firefox-ya'
-        };
-        const html = template(colection);
-        document.getElementById('result').innerHTML = html;
-    }).catch((err)=>console.error("\u041F\u043E\u043C\u0438\u043B\u043A\u0430 \u0437\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043D\u044F \u0448\u0430\u0431\u043B\u043E\u043D\u0443:", err));
-});
+},{}],"f6X6w":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "context", ()=>context);
+const context = [
+    {
+        titleCardName: 'The something browser ever',
+        textCardName: 'Google Chrome',
+        imgCardName: './googlechrome.svg',
+        imgCardAlt: 'googlechrome-ya'
+    },
+    {
+        titleCardName: 'The something browser ever',
+        textCardName: 'Microsoft Edge',
+        imgCardName: './edge.svg',
+        imgCardAlt: 'edge-ya'
+    },
+    {
+        titleCardName: 'The something browser ever',
+        textCardName: 'Opera',
+        imgCardName: './opera.svg',
+        imgCardAlt: 'opera-ya'
+    },
+    {
+        titleCardName: 'The something browser ever',
+        textCardName: 'Firefox',
+        imgCardName: './firefox.svg',
+        imgCardAlt: 'firefox-ya'
+    }
+];
 
-},{"./context":"3zAa8"}],"jnFvT":[function(require,module,exports,__globalThis) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, '__esModule', {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["22qiQ","f6X6w"], "f6X6w", "parcelRequiredf95", {})
 
-},{}]},["lpzWn","jOXmm"], "jOXmm", "parcelRequiredf95", {})
-
-//# sourceMappingURL=JS-Deep-7-class.e02fbd41.js.map
+//# sourceMappingURL=JS-Deep-7-class.9ef4cbb5.js.map
